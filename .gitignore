@@ -1,0 +1,15 @@
+# Python
+venvclayton/
+__pycache__/
+*.pyc
+
+# Flask
+instance/
+.env
+
+# Node (if using Vue frontend)
+node_modules/
+dist/
+
+# General
+.DS_Store
