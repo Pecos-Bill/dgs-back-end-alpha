@@ -1,15 +1,13 @@
 # Python
-venvclayton/
+venv/
 __pycache__/
-*.pyc
+.pyc
 
 # Flask
-instance/
 .env
 
-# Node (if using Vue frontend)
-node_modules/
-dist/
+# Node
+
 
 # General
 .DS_Store
