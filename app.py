@@ -17,10 +17,11 @@ jwt = JWTManager(app)
 
 db.init_app(app)
 
-CORS(app)
+CORS(appresources={r"/*": {"origins": ["https://dallasgoonersociety.com", "http://localhost:8080"]}})
 
 app.config.from_object("config.Config")
 
+# Creates DB Tables
 with app.app_context():
     db.create_all()
 
