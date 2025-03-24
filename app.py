@@ -21,8 +21,8 @@ CORS(app)
 
 app.config.from_object("config.Config")
 
-# with app.app_context():
-#     db.create_all()
+with app.app_context():
+    db.create_all()
 
 @app.route('/')
 def home():
