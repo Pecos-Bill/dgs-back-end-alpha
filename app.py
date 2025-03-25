@@ -17,7 +17,8 @@ jwt = JWTManager(app)
 
 db.init_app(app)
 
-CORS(app, resources={r"/*": {"origins": ["https://dallasgoonersociety.com", "http://localhost:8080"]}})
+# CORS(app, resources={r"/*": {"origins": ["https://dallasgoonersociety.com", "http://localhost:8080"]}})
+CORS(app)
 
 app.config.from_object("config.Config")
 
