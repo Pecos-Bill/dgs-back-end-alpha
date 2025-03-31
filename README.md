@@ -36,4 +36,4 @@ The following features are planned for future development to enhance the user ex
    - Enable members to post messages and engage in discussions with fellow fans.
 These enhancements aim to provide a more interactive and rewarding experience for Arsenal fans, fostering a vibrant and connected community.
 
-## The intention of this repo is for visibility into the project, not for replicaation so installation steps are not included. 
+## The intention of this repo is for visibility into the project, not for replication so installation steps are not included. 
